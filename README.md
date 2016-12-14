@@ -9,3 +9,6 @@
 # 比较实用的前端面试题网站
 - [BAT及各大互联网公司2014前端笔试面试题--JavaScript篇](http://www.cnblogs.com/coco1s/p/4029708.html) 
 - [BAT及各大互联网公司2014前端笔试面试题--Html,Css篇](http://www.cnblogs.com/coco1s/p/4034937.html)
+- [前端面试笔试知识汇总1（含答案）](http://www.cnblogs.com/huansky/p/5923665.html)
+- [前端面试笔试知识汇总2（含答案）](http://www.cnblogs.com/huansky/p/5923733.html)
+- [前端面试笔试知识汇总3（含答案）](http://www.cnblogs.com/huansky/p/5953202.html)
