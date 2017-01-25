@@ -1,3 +1,9 @@
+# 一份诚挚的年终大礼
+- 马上就要过年了，而过完年，马上便是各大公司的校招，各个还在学校的童鞋也都要出来找实习单位了，那么如何让我们在面试以及笔试中脱颖而出呢？答案之一便是：多刷题，刷好题。下面我分别总结了（html/css进阶篇 ） （javascript进阶篇）相信可以作为大家升职加薪提供筹码。
+
+1. [html/css篇面试题](https://github.com/Kelichao/work.expressive/issues/11)
+2. [javascript篇面试题](https://github.com/Kelichao/work.expressive/issues/12)
+
 # 实用的前端工具站点
 
 ![image](https://cloud.githubusercontent.com/assets/18028533/21853972/08d1ddc4-d854-11e6-9111-990f57ba9181.png)
@@ -22,3 +28,4 @@
 - [前端面试笔试知识汇总1（含答案）](http://www.cnblogs.com/huansky/p/5923665.html)
 - [前端面试笔试知识汇总2（含答案）](http://www.cnblogs.com/huansky/p/5923733.html)
 - [前端面试笔试知识汇总3（含答案）](http://www.cnblogs.com/huansky/p/5953202.html)
+
