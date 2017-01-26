@@ -7,7 +7,6 @@
 
 # 实用的前端工具站点
 
-![image](https://cloud.githubusercontent.com/assets/18028533/21853972/08d1ddc4-d854-11e6-9111-990f57ba9181.png)
 
 - [查询可以使用的css/js属性的网站caniuse](http://caniuse.com/)
 - [画svg矢量图](http://editor.method.ac/)
