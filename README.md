@@ -20,17 +20,8 @@
 - [在线格式化代码](http://tool.oschina.net/codeformat/js)
 - [在线babel转换](http://babeljs.io/repl/)
 
-# 比较实用的前端面试题网站
-- [前端路上的旅行](http://www.w3cplus.com/front-end-trip-on-road.html)
-- [大漠老师对前端面试的意见](https://github.com/amfe/article/issues/5)
-- [BAT及各大互联网公司2014前端笔试面试题--JavaScript篇](http://www.cnblogs.com/coco1s/p/4029708.html) 
-- [BAT及各大互联网公司2014前端笔试面试题--Html,Css篇](http://www.cnblogs.com/coco1s/p/4034937.html)
-- [前端面试笔试知识汇总1（含答案）](http://www.cnblogs.com/huansky/p/5923665.html)
-- [前端面试笔试知识汇总2（含答案）](http://www.cnblogs.com/huansky/p/5923733.html)
-- [前端面试笔试知识汇总3（含答案）](http://www.cnblogs.com/huansky/p/5953202.html)
 
 # 编写可维护的Javascript代码
-![image](https://cloud.githubusercontent.com/assets/18028533/22682831/05febc78-ed50-11e6-9676-8aa795007517.png)
 
 # 一、基本的格式化
 ## 1.1缩进
@@ -73,10 +64,17 @@ doit(element, window, document, "some code", true,
 4. 在方法内的逻辑片段之间插入空行，提高可读性。
 
 ## 1.6命名
-> 驼峰法
+> 驼峰法用于普通变量，功能函数
 
 `var anotherNames`
 
+> 首字符大写用于构造函数
+
+`function Model(){// somecode}`
+
+> 全大写字母用于常量
+
+`var PERSON_COUNT = 10;`
 ## 1.6.1变量和函数
 > 变量名前缀应当为名词
 
@@ -152,6 +150,19 @@ fn();
  */
 fn();
 ```
+
+> 特殊注释
+
+```js
+/*
+ * TODO: 说明代码还未完成，应当包含下一步要做的事。
+ * HACK: 该问题可能有更好的解决办法
+ * XXX：说明代码是有问题的，应当尽快修复
+ * FIXME: 有问题，要紧程度比XXX低
+ * REVIEW: 说明代码任何可能的改动都需要评审
+ */
+```
+
 # 三、语句和表达式
 ## 3.1
 > 注意空格，对齐花括号
@@ -169,6 +180,12 @@ for (i = 0; i < 10; i++) {
     // some code
 }
 ```
+
+## 3.3运算符间距
+```js
+var fond = (value1 === value2);
+```
+
 # 四、变量声明
 ## 4.1
 ```js
@@ -187,3 +204,5 @@ if (1 === "1") {
     // some code
 }
 ```
+
+
