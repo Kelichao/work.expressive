@@ -186,6 +186,12 @@ for (i = 0; i < 10; i++) {
 var fond = (value1 === value2);
 ```
 
+## 3.4三元运算符的处理
+```js
+ var instanceData = typeof childVal === 'function'
+ ? childVal.call(vm)
+ : childVal;
+```
 # 四、变量声明
 ## 4.1
 ```js
