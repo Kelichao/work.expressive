@@ -54,6 +54,21 @@ doit(element, window, document, "some code", true,
 > 全大写字母用于常量
 
 `var PERSON_COUNT = 10;`
+
+> 新型命名法
+
+1. 字符串
+
+`var s_myString = "asdf";`
+
+2. 数组
+
+`var a_myArray = [1, 2, 3, 4];`
+
+3. 对象
+
+`var o_myObject = {a: 1, b: 2};`
+
 ## 1.6.1变量和函数
 > 变量名前缀应当为名词
 
