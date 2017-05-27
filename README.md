@@ -157,8 +157,37 @@ fn();
  */
 ```
 
+> 函数注释
+
+- 函数注释包括了函数功能与函数参数的代表意义
+
+```js
+/**
+ * @功能： 	渲染步骤，并返回一个增加后的步数
+ * @param    {number}  nowStep   当前步骤序号
+ * @param    {number}  total     总的步骤数
+ */
+increaseStep: function(nowStep, total) {
+	$(".now-step").html(nowStep);
+	$(".step-total").html(total);
+	return ++nowStep;
+}
+```
+
+> JS文件头注释
+
+```js
+/*!
+ * @description: 较为常用的工具集合
+ * @author: kelichao
+ * @update: 2016-12-28 / 增加了埋点文件以及调用客户端接口文件的方法
+ * @https://github.com/Kelichao/kit.js
+ */
+
+```
 # 三、语句和表达式
 ## 3.1
+
 > 注意空格，对齐花括号
 
 ```js
