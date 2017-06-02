@@ -2,11 +2,13 @@
 
 # 编写可维护的Javascript代码
 
+- [欢迎来提issue进行改进](https://github.com/Kelichao/work.expressive)
+
 - [参考《编写可维护的JavaScript》](http://baike.baidu.com/link?url=zn9j-dvLCZyZ-BsCdBr5kO674AagHo4iMdq6zR1KDvxnDCV4VzlDZ_IBnMeg7fhOutujqk_zomnsWG-sFcfrZjwyVb-T8BfsDLFUAB99w72UdOEaIbcLMkA9_JnoF_ghH0ZxSQmn_vG_-POH2THmxWWkkTgeev2Yb0x6euwyNvK)
 
 > 代码风格根据团队内部成员总结所得，大家有好的意见或建议可以一起来进行定制O(∩_∩)O
 
-**[欢迎来提issue进行改进](https://github.com/Kelichao/work.expressive)**
+
 
 ### 目录
 ```
