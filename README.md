@@ -1,10 +1,10 @@
-
-
 # 编写可维护的Javascript代码
 
 - [欢迎来提issue进行改进](https://github.com/Kelichao/work.expressive)
 
 - [参考《编写可维护的JavaScript》](http://baike.baidu.com/link?url=zn9j-dvLCZyZ-BsCdBr5kO674AagHo4iMdq6zR1KDvxnDCV4VzlDZ_IBnMeg7fhOutujqk_zomnsWG-sFcfrZjwyVb-T8BfsDLFUAB99w72UdOEaIbcLMkA9_JnoF_ghH0ZxSQmn_vG_-POH2THmxWWkkTgeev2Yb0x6euwyNvK)
+
+- [wiki前端框架的基本的架构方案]( http://wiki.evun.cn/pages/viewpage.action?pageId=3933068)
 
 > 代码风格根据团队内部成员总结所得，大家有好的意见或建议可以一起来进行定制O(∩_∩)O
 
@@ -58,6 +58,13 @@ if (1) {
 var name = "Bob";
 // 不推荐
 var age = 100
+
+// 缺分号的后果
+// 如果当前函数以闭包形式编写，前面的代码没有分号会报错
+// 所以很多以闭包形式编写的插件会在开头添加分号，以防止错误
+;(function() {
+	// somecode
+})();
 ```
 
 ## 1.3 行的长度
@@ -284,7 +291,4 @@ if (1 === "1") {
 
 
 
-new ui 
-
-wiki 
-[前端框架的基本的架构方案]( http://wiki.evun.cn/pages/viewpage.action?pageId=3933068)
+new ui
