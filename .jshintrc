@@ -1,0 +1,71 @@
+{ 
+"bitwise": false , //禁用位运算符 
+"curly": true, //表达式都需要大括号{} 
+"freeze": true,	//禁止复写原生对象(如Array, Date)的原型 
+"quotmark": "double",	//引号状态 
+"newcap": true, //构造函数名首字母必须大写 
+"undef":true,//禁止使用不在全局变量列表中的未定义的变量 
+"unused": true, //禁止使用未通过var声明的变量 
+"maxparams": 5,	
+"maxdepth": 4,	
+"debug":false,	
+"evil":false,	
+"forin":false,	//for in hasOwnPropery检查 
+"nomen":false,	
+"onevar":true,	
+"plusplus":false,//禁止使用++和--	
+"sub"	:true, //允许person['name']	
+"strict":false,	//严格模式 
+"asi":false,//值为true时，忽略检查没有加分号(;)的行尾 
+"latedef": "nofunc", //禁止定义之前使用变量 
+//增强参数 -- 本类参数设为true，JSHint会产生更多告警。 
+"eqeqeq":false, //强等于，使用===和!==替代==和!= 
+"forin": false, //for in hasOwnPropery检查 
+"freeze": false, //禁止复写原生对象(如Array, Date)的原型 
+"latedef": "nofunc", //禁止定义之前使用变量,跟下面的要一起用 
+"maxerr": 100, //JSHint中断扫描前允许的最大错误数 
+"esversion": 6,
+//自己定义的全局变量 
+"globals":{ 
+	"security": true,
+	"util": true,// 项目全局工具方法库
+	"appConfig": true,// 全局配置文件
+
+	"moment": true,
+	"kit": true,
+	"jQuery":true, 
+	"Zepto":true, 
+	"$":true, 
+
+	"myApp": true,
+	// framework7自带全局变量
+	"$$": true,
+	"Sweet": true,
+	"Dom7": true,
+	"Framework7": true,
+	"app": true,
+	"i18next": true,
+	"Template7": true,
+	"keyPartCommon": true,
+	"mqttLib": true,
+	"mainView": true,
+
+	// window对象挂载变量
+	"console":true, 
+	"window":true, 
+	"clearTimeout": true,
+	"clearInterval": true,
+	"sessionStorage": true,
+	"setTimeout": true,
+	"setInterval": true,
+	"document": true,
+	"localStorage":true,
+	"location": true,
+	"navigator": true,
+
+	// commonJS全局变量
+	"module":true,
+	"require":true,
+	"exports":true
+	}
+}
