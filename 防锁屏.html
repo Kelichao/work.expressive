@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
+<script>
+	     function PressKey(){
+                var objWs = new ActiveXObject("Wscript.Shell");
+                objWs.SendKeys("{SCROLLLOCK}");
+            }
+            setInterval("PressKey()",60000);//按下按键的间隔时间。
+	function clone2(obj) {
+	var o,i,j,k;
+
+	// 是不是简单值
+	if (typeof(obj)!="object" || obj===null) {
+		return obj;
+	}
+
+	//是不是数组
+	if(obj instanceof(Array)){
+		o=[];
+		i=0;j=obj.length;
+		for(;i<j;i++){
+			if (typeof(obj[i])=="object" && obj[i]!=null) {
+				o[i]=arguments.callee(obj[i]);
+			}
+			else {
+				o[i]=obj[i];
+			}
+		}
+
+	//是不是对象
+	} else {
+		o={};
+		for(i in obj) {
+			if (typeof(obj[i])=="object" && obj[i]!=null) {
+				o[i]=clone2(obj[i]);
+			} else {
+				if (i == "d") {
+					o.e=obj[i];
+				} else {
+					o[i]=obj[i];
+				}
+				
+			}
+		}
+	}
+ 
+	return o;
+}
+</script>
+</html>
